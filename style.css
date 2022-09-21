@@ -1,0 +1,280 @@
+header {
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.931);
+  border-radius: 90px;
+  box-shadow: rgba(167, 66, 66, 0.523) 20px 8px 20px; 
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='29' height='29' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform=''%3E%3Crect width='100%25' height='100%25' fill='rgba(203, 213, 224,1)'/%3E%3Cpath d='M0 30a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20v20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20zM0-10a 0 0 0 0 0 0 0h20a-20 20 0 0 1-20 20zM0-10a 20 20 0 0 1 20 20a 0 0 0 0 0 0 0a 20 20 0 0 1 20 20a 0 0 0 0 0 0 0a 20 20 0 0 1 20 20a 0 0 0 0 1 0 0v20a-20-20 0 0 1-20-20a 0 0 0 0 0 0 0a-20-20 0 0 1-20-20a 0 0 0 0 0 0 0a-20-20 0 0 1-20-20a 0 0 0 0 0 0 0a-20-20 0 0 1-20-20a 0 0 0 0 1 0 0a-20-20 0 0 0-20-20h20a 0 0 0 0 1 0 0a 0 0 0 0 0 0 0zM40-10a 20 20 0 0 1 20 20h-20a 0 0 0 0 1 0 0a-20-20 0 0 1-20-20a 0 0 0 0 1 0 0a-20-20 0 0 1-20-20z' fill='rgba(247, 250, 252,1)' filter='url(%23filter-doodad-1)'/%3E%3Cpath d='M-20 30a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20v20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20zM-20-10a 0 0 0 0 0 0 0h20a-20 20 0 0 1-20 20zM-20-10a 20 20 0 0 1 20 20a 0 0 0 0 0 0 0a 20 20 0 0 1 20 20a 0 0 0 0 0 0 0a 20 20 0 0 1 20 20a 0 0 0 0 1 0 0v20a-20-20 0 0 1-20-20a 0 0 0 0 0 0 0a-20-20 0 0 1-20-20a 0 0 0 0 0 0 0a-20-20 0 0 1-20-20a 0 0 0 0 0 0 0a-20-20 0 0 1-20-20a 0 0 0 0 1 0 0a-20-20 0 0 0-20-20h20a 0 0 0 0 1 0 0a 0 0 0 0 0 0 0zM20-10a 20 20 0 0 1 20 20a 0 0 0 0 0 0 0a 20 20 0 0 1 20 20h-20a 0 0 0 0 0 0 0a-20-20 0 0 1-20-20a 0 0 0 0 0 0 0a-20-20 0 0 1-20-20a 0 0 0 0 1 0 0a-20-20 0 0 1-20-20zM20 30a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20v20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20z' fill='rgba(26, 32, 44,1)'/%3E%3C/pattern%3E%3Cfilter id='filter-doodad-1'%3E%3CfeTurbulence baseFrequency='0.1' numOctaves='2' type='fractalNoise' result='result1'/%3E%3CfeDisplacementMap in2='result1' scale='1' result='result2' xChannelSelector='R' in='SourceGraphic'/%3E%3CfeComposite in2='result2' in='SourceGraphic' operator='atop' result='fbSourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+  }
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='100' height='100' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(127)'%3E%3Crect width='100%25' height='100%25' fill='rgba(255, 250, 240,1)'/%3E%3Ccircle cx='5' cy='40' r='3' fill='rgba(26, 32, 44,1)' filter='url(%23filter-doodad-1)'/%3E%3Ccircle cx='25' cy='0' r='3' fill='rgba(26, 32, 44,1)' filter='url(%23filter-doodad-1)'/%3E%3Ccircle cx='5' cy='0' r='3' fill='rgba(26, 32, 44,1)' filter='url(%23filter-doodad-1)'/%3E%3Ccircle cx='25' cy='40' r='3' fill='rgba(26, 32, 44,1)' filter='url(%23filter-doodad-1)'/%3E%3Ccircle cx='15' cy='20' r='5' fill='rgba(221, 107, 32,1)'/%3E%3Ccircle cx='35' cy='20' r='5' fill='rgba(221, 107, 32,1)'/%3E%3C/pattern%3E%3Cfilter id='filter-doodad-1'%3E%3CfeTurbulence baseFrequency='0.1' numOctaves='2' type='fractalNoise' result='result1'/%3E%3CfeDisplacementMap in2='result1' scale='1' result='result2' xChannelSelector='R' in='SourceGraphic'/%3E%3CfeComposite in2='result2' in='SourceGraphic' operator='atop' result='fbSourceGraphic'/%3E%3C/filter%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+    padding-bottom: 5em;
+    margin: 0;
+    min-height: 100hv;
+  }
+.botonesIniciales{
+  margin: auto;
+  display: block;
+  height: 60px;
+  width: 170px;
+  background-color: rgba(0, 0, 0, 0.762);
+  color: white;
+  font-family: 'Staatliches', cursive;
+  text-decoration: none;
+  padding-top: 8px;
+}
+#formInicioSesion{
+  color: black;
+  background-color: rgba(230, 237, 240, 0.95);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+  border: solid black 4px;
+  font-family: 'Anton', sans-serif;
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: 320px;
+}
+#cambiarVistaContraseña{
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+}
+.registros{
+  color: black;
+  background-color: rgba(230, 237, 240, 0.95);
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+  border: solid black 4px;
+  font-family: 'Anton', sans-serif;
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  margin-top: 10px;
+}
+#solicitud{
+  background-color: black;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+form{
+    color: black;
+    background-color: rgba(230, 237, 240, 0.95);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    border: solid black 4px;
+    font-family: 'Anton', sans-serif;
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 550px;
+  }
+  .slider{
+    width: 300px;
+    height: 20px;
+    margin: 1px 20px 22px 50px;
+    background-color: rgba(0, 0, 0, 0.443);
+  }
+  .botonForm{
+    margin: auto;
+    display: block;
+    height: 45px;
+    width: 290px;
+    padding-top: 8px;
+    background-color: rgba(0, 0, 0, 0.762);
+    color: white;
+    font-family: 'Staatliches', cursive;
+  }
+  #registroDatosUsuario{
+    padding-bottom: 10px;
+  }
+  #botonInicioSesion{
+    margin: auto;
+    display: block;
+    height: 45px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0.762);
+    color: white;
+    font-family: 'Staatliches', cursive;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px 10px;
+  }
+  .row {
+    margin: 20px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    position: relative;
+    width: 230px;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: rgba(51, 58, 52, 0.985);
+    box-shadow: rgb(162, 125, 71) 10px 5px 15px 0px;
+    margin: 10px 10px 8px 10px;
+    box-sizing: border-box;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 4px;
+    outline: auto;
+  }
+  .cardText {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(100, 179, 201);
+  }
+  .imgCards{
+    height: 100px;
+    max-width: 150px;
+    margin: auto;
+    display: block;
+    
+  }
+  .botonCompra{
+    height: 50px;
+    margin: auto;
+    display: block;
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+  }
+  .botonCard{
+    height: 35px;
+    background-color: rgba(33, 32, 32, 0.924);
+    margin: auto;
+    display: block;
+    color: green;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+  }
+  a{
+    font-size: 12px;
+    color: rgba(156, 204, 238, 0.854);
+    height: 30px;
+    margin: auto;
+    display: block;
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 40px;
+
+  }
+  h2{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    margin: 2px 50px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+  }
+  
+  .column2{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .row2{
+    margin: 0 -5px;
+  }
+  .row2:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column2 {
+    width: 60%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  #supComprado{
+    position: static;
+    width: 200px;
+    padding: 15px;
+    border-radius: 40px;
+    background-color: rgba(11, 61, 86, 0.999);
+    box-shadow: rgb(30, 161, 182) 10px 5px 15px 0px;
+    margin: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    display: block;
+    border: solid black 4px;
+    outline: auto;
+    color: rgb(0, 0, 0);
+    float: left;
+  }
+  .botonEliminar{
+    margin: auto;
+    border-radius: 10px;
+    display: block;
+    border: solid rgb(255, 255, 255) 2px;
+    background-color: rgb(0, 0, 0);
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+  }
+#totalCompra{
+  border-radius: 40px;
+  background-color: rgba(219, 228, 221, 0.985);
+  box-shadow: rgb(162, 125, 71) 10px 5px 15px 0px;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  border: solid black 4px;
+  padding-top: 5px;
+  padding-bottom: 130px;
+  width: 25%;
+  height: 100px;
+  color: black;
+  font-size: 20px;
+  float: right;
+}
+.botonCompraTotal{
+  margin: auto;
+  border-radius: 10px;
+  display: block;
+  border: solid rgb(145, 213, 130) 2px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+
+/* footer{
+  background-color: black;
+  position: fixed;
+  text-align: center;
+  padding: 1em 0; 
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  color: white; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
